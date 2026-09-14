@@ -1,47 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A student-focused campaign supporting charity: water and clean-water projects.">
+  <title>Students for Clean Water</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
+  <header class="site-header">
+    <a class="brand" href="https://www.charitywater.org/" target="_blank" rel="noopener">
+      <span class="can-mark" aria-hidden="true">▣</span>
+      <span>charity: water</span>
+    </a>
+    <a class="header-link" href="#take-action">Take action</a>
+  </header>
+
+  <main>
     <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
+      <div class="hero-copy">
+        <p class="eyebrow">Students for clean water</p>
+        <h1>Small actions can make a real difference.</h1>
+        <p class="subhead">College students already know how powerful a community can be. Together, we can help bring clean and safe water to people around the world.</p>
+        <a class="button" href="https://www.charitywater.org/donate" target="_blank" rel="noopener">Give clean water</a>
+      </div>
+      <img class="hero-image" src="img/clean-water.svg" alt="Yellow water can surrounded by clean blue water and hopeful rays">
     </section>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
+    <section class="story" aria-labelledby="why-water">
+      <div>
+        <p class="eyebrow">Why water?</p>
+        <h2 id="why-water">Clean water changes more than one moment.</h2>
+      </div>
+      <p>Reliable access to clean water can support health, education, dignity, and economic opportunity. charity: water works with local partners to fund sustainable water projects, helping communities build stronger futures.</p>
     </section>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
+    <section class="proof" aria-label="Why give through charity water">
+      <article>
+        <span>100%</span>
+        <h3>Directly funds water projects</h3>
+        <p>Private donors cover operating costs, so public donations can go directly toward clean-water solutions.</p>
+      </article>
+      <article>
+        <span>Proof</span>
+        <h3>See the impact</h3>
+        <p>Completed projects are documented with photos and GPS coordinates, giving supporters a clear view of their impact.</p>
+      </article>
+      <article>
+        <span>Together</span>
+        <h3>Students can lead</h3>
+        <p>One gift, one fundraiser, or one shared message can introduce more people to the global water crisis.</p>
+      </article>
     </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
+    <section class="cta" id="take-action">
+      <p class="eyebrow">Ready to help?</p>
+      <h2>Make your next click count.</h2>
+      <p>You do not need to solve the entire water crisis alone. Start with one action and be part of something bigger.</p>
+      <a class="button button-dark" href="https://www.charitywater.org/donate" target="_blank" rel="noopener">Donate through charity: water</a>
     </section>
+  </main>
+
+  <footer>
+    <p>Student campaign concept created for the Global Career Accelerator.</p>
+    <a href="https://www.charitywater.org/" target="_blank" rel="noopener">Visit charitywater.org</a>
+  </footer>
 </body>
 </html>
